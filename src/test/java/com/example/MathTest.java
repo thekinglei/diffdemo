@@ -13,4 +13,11 @@ public class MathTest {
         Assert.assertEquals("multiply test error", 1, result);
     }
 
+    @org.junit.Test
+    public void add() {
+        Math math = new Math();
+        int result = math.add(1, 1);
+        Assert.assertEquals("add test error", 2, result);
+    }
+
 }
