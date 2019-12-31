@@ -10,8 +10,7 @@ public class Math {
     public int multiply(int a,int b){
         return a*b;
     }
-}
-public class Math_add {
+
     public int add(int a,int b){
         return a+b;
     }
