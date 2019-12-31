@@ -11,3 +11,9 @@ public class Math {
         return a*b;
     }
 }
+public class Math_add {
+    public int add(int a,int b){
+        return a+b;
+    }
+}
+
