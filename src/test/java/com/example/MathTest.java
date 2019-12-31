@@ -20,4 +20,10 @@ public class MathTest {
         Assert.assertEquals("add test error", 2, result);
     }
 
+    @org.junit.Test
+    public void sub() {
+        Math math = new Math();
+        int result = math.sub(1, 1);
+        Assert.assertEquals("add test error", 0, result);
+    }
 }

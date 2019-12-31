@@ -22,5 +22,8 @@ public class Math {
         return a*2-b;
     }
 
+    public int add_oo(int a,int b){
+        return a*2-b;
+    }
 }
 
