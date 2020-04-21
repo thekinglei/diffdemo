@@ -47,4 +47,5 @@ public class MathTest {
         Math math = new Math();
         int result = math.add_cc(1, 1);
         Assert.assertEquals("add test error", 0, result);
+   }
 }

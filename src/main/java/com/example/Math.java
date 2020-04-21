@@ -33,8 +33,11 @@ public class Math {
         return a*2-b*3;
     }
     public int add_cc(int a,int b){
-        return b - a;
+        return b-a;
     }
 
+    public int add_cc_2(int a,int b){
+        return b-a;
+    }
 }
 
