@@ -32,5 +32,9 @@ public class Math {
     public int add_fdf(int a,int b){
         return a*2-b*3;
     }
+    public int add_cc(int a,int b){
+        return b - a;
+    }
+
 }
 

@@ -41,4 +41,10 @@ public class MathTest {
         Assert.assertEquals("add test error", 0, result);
     }
 
+
+    @org.junit.Test
+    public void add_cc() {
+        Math math = new Math();
+        int result = math.add_cc(1, 1);
+        Assert.assertEquals("add test error", 0, result);
 }
