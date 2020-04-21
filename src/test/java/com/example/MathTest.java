@@ -33,4 +33,12 @@ public class MathTest {
         int result = math.sub_ox(1, 1);
         Assert.assertEquals("add test error", 1, result);
     }
+
+    @org.junit.Test
+    public void sub_fff() {
+        Math math = new Math();
+        int result = math.sub_fff(1, 1);
+        Assert.assertEquals("add test error", 0, result);
+    }
+
 }
