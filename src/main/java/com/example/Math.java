@@ -39,5 +39,8 @@ public class Math {
     public int add_cc_2(int a,int b){
         return b-a;
     }
+    public int add_cc_3(int a,int b){
+        return b-a;
+    }
 }
 
