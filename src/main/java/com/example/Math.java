@@ -25,7 +25,7 @@ public class Math {
     public int add_oo(int a,int b){
         return a*2-b;
     }
-    public int add_fff(int a,int b){
+    public int sub_fff(int a,int b){
         return a*2-b*2;
     }
 
